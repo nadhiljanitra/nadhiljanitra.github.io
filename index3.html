@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SBO</title>
+        <link type="text/css" rel="stylesheet" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <header>
+        <div id="logo">
+            <p><a href=/index.html>.SBO</a></p>
+        </div>
+        <nav>
+            <ul>
+                    <li><a href="index.html#htr">How To Rent</a></li>
+                    <li><a href="index.html#aboutText">About Us</a></li>
+                    <li><a href="index.html#faq">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="detail">
+        <h1>Please Input Your Detail</h1>
+        <form action="./index2.html" method="get">
+            <label for="nama">Name :</label><br>
+            <input type="text" id="nama" name="nama" placeholder="Enter your full name"><br>
+            <label for="phone">Phone Number :</label><br>
+            <input type="text" id="phone" name="phone" pattern="[0-9]{12,12}" placeholder="12 digits number"><br>
+            <label for="email">Email :</label><br>
+            <input type="text" id="email" name="email" placeholder="Enter your email"><br>
+            <label for="alamat">Adress :</label><br>
+            <input type="text" id="alamat" name="alamat" placeholder="Enter your address"><br>
+            <div id="location">
+                <div>
+                    <label for="city">City :</label><br>
+                    <input type="text" id="city" name="city"><br>
+                </div>
+                <div>
+                    <label for="state">State :</label><br>
+                    <input type="text" id="state" name="state">
+                </div>
+                <div>
+                    <label for="country">Country :</label><br>
+                    <input type="text" id="country" name="country"><br>
+                </div>
+            </div>
+            <label for="date">When will you go :</label><br>
+            <input type="date" name="date" id="date"> 
+            <label for="until"> - </label>
+            <input type="date" name="until" id="until"><br>
+            <input type="submit" value="submit">
+        </form>
+    </section>
+    <footer id="bawah">
+            <p style="float: left">Contact us: help@sbo.com</p>
+            <p>&#169 2019 <a href="https://www.linkedin.com/in/mohamad-nadhil-janitra-42030211b/"  style="color: white" target="_blank" >Mohamad Nadhil Janitra</a></p>
+    </footer>
+    </body>
+</html>
